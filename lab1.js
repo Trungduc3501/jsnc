@@ -29,3 +29,26 @@ function sayHello(name){
 sayHello("An");
 sayHello("Duc");
 sayHello("Hoang");
+
+function sum(a,b){
+    return a+b;
+}
+const result=sum(10,20);
+console.log("Tổng: ",result);
+
+function calculateTotal(price,quantity){
+    return price*quantity;
+}
+
+const total=calculateTotal(50000,3);
+console.log(total);
+
+
+function calculateAverage(math,english,javascript){
+    return (math+english+javascript)/3;
+}
+const average=calculateAverage(8,9,9);
+console.log(average); 
+
+
+
