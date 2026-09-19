@@ -17,3 +17,25 @@ for (let i = 0; i < students.length; i++) {
     console.log(students[i]);
     
 }
+
+//b1
+
+const names=["An",
+            "Binh",
+            "Nam",
+            "Hoa",
+            "Lac",
+            "Duc"
+];
+console.log(names[0]);
+console.log(names[5]);
+    console.log(names.length);
+    names.push("Trung");
+console.log(names);
+
+    names.pop();
+console.log(names);
+
+for (let i = 0; i < names.length; i++) {
+console.log("Tên sinh viên thứ",i+1,": ",names[i]);    
+}
