@@ -115,3 +115,39 @@ for (let i = 0; i < listStudent.length; i++) {
 }
 html.innerHTML=content;
 console.log(html);
+const products=[
+    {id:1,
+    name:"iphone 15",
+    price:20000000,
+    },
+    {id:2,
+    name:"Samsung galaxy S24",
+    price:18000000,
+    },
+    {id:3,
+    name:"Xiaomi 14",
+    price:25000000,
+    },
+];
+let htmlProduct=document.getElementById("divProduct");
+
+console.log(products);
+let contents='';
+let totalPrice=0;
+for (let i = 0; i < products.length; i++) {
+    console.log(products[i]);
+    totalPrice+=products[i].price;
+    contents+=`
+    <h1 class="px-3 py-4 border">Id sản phẩm: ${products[i].id}</h1>
+    <h1 class="px-3 py-4 border">Tên sản phẩm: ${products[i].name}</h1>
+    <h2 class="px-3 py-4 border">Giá sản phẩm: ${products[i].price}</h2>
+    `
+    
+};
+contents += `
+    <div class="px-3 py-4 border font-bold">
+        Tổng giá: ${totalPrice}
+    </div>
+`;
+
+htmlProduct.innerHTML=contents;
