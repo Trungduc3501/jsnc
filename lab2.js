@@ -90,3 +90,28 @@ for (let i = 0; i < listStudent.length; i++) {
     console.log(listStudent[i].name);
     
 }
+
+//truy cap dom id=students
+let html=document.getElementById("students");
+
+let content='';
+for (let i = 0; i < listStudent.length; i++) {
+    content=content+`<tr>
+    <td class="px-4 py-2 border">
+    ${listStudent[i].id}
+    </td>
+        <td class="px-4 py-2 border">
+    ${listStudent[i].name}
+    </td>
+        <td class="px-4 py-2 border">
+    ${listStudent[i].age}
+    </td>
+    <td class="px-4 py-2 border">
+    <button class="border px-4 py-3 mr-4 bg-green-500">Delete</button>
+    <button class="border px-4 py-3 mr-4 bg-red-500">Edit</button>
+    </td>
+    
+    </tr>`;  
+}
+html.innerHTML=content;
+console.log(html);
