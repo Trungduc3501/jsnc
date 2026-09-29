@@ -23,25 +23,7 @@
     <!-- <div id="app"></div> -->
     <div class="max-w-6xl mx-auto mt-10 px-4 text-center">
       <h1 id="title" class="text-2xl font-semibold mb-6">Danh sách</h1>
-      <div>
-
-        <input type="text" placeholder="Nhập tên sinh viên cần tìm kiếm ..." id="searchName"
-        class="border-2 px-4 py-2 mb-3">
-        <button
-          id="btnSearch"
-          type="button"
-          class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-lg"
-        >
-          Tìm kiếm
-        </button>
-                <button
-          id="btnReset"
-          type="button"
-          class="bg-gray-500 hover:bg-gray-600 text-white px-5 py-2 rounded-lg"
-        >
-          Tất cả
-        </button>
-      </div>
+      <div id="divProduct"></div>
       <div class="overflow-x-auto">
         <table class="w-full border border-gray-300 rounded-lg">
           <thead class="bg-gray-100">
@@ -53,7 +35,7 @@
             </tr>
           </thead>
 
-          <tbody id="students">
+          <tbody id="products">
 
           </tbody>
         </table>
@@ -63,6 +45,6 @@
     <!-- <script src="lab1.js"></script>
     <script src="lab2.js"></script>
     <script src="lab3.js"></script> -->
-    <script src="lab4.js"></script>
+    <script src="product.js"></script>
   </body>
 </html>
