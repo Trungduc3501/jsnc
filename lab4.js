@@ -12,7 +12,7 @@ function student(){
               <td class="px-4 py-2 border border-gray-300">
                 <div class="flex items-center justify-center gap-2">
                   <a
-                    href="#"
+                    href="edit.html?id=${student.id}"
                     class="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 rounded"
                   >
                     Edit
@@ -20,6 +20,7 @@ function student(){
 
                   <button
                     class="bg-red-500 hover:bg-red-600 text-white px-3 py-1 rounded"
+                   onclick="deleteStudent(${student.id})"
                   >
                     Delete
                   </button>
@@ -73,10 +74,35 @@ function search() {
     .then((res) => {
         renderStudents(res.data);
     });
+} 
+async function deleteStudent(id) {
+  const result =confirm("Bạn có muốn xóa hay không?");
+  if (result) {
+    try {
+    
+     await axios.delete(`http://localhost:3000/students/${id}`);
+    
+      alert("Xóa thành công");
+      student();
+      
+    } catch (error) {
+      
+      alert("Xóa thất bại");
+  }
+}
 }
 document.getElementById("btnSearch").addEventListener("click",search);
 document.getElementById("btnReset").addEventListener("click",()=>{
   document.getElementById("searchName").value="";
   student();
 });
+
+
+
+
+
+
+
+
+
 student();

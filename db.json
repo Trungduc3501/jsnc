@@ -7,22 +7,66 @@
       "email": "a@gmail.com"
     },
     {
-      "name": "hoadv",
-      "age": 35,
-      "email": "hoadv@gmail.com",
+      "name": "Nguyễn Trung Đức ",
+      "age": "22",
       "id": 2
     },
     {
-      "name": "hoadv",
-      "age": 35,
-      "email": "hoadv@gmail.com",
+      "name": "Nguyễn Trung Đức ",
+      "age": "25",
       "id": 3
     },
     {
-      "name": "Trug Đức",
-      "age": 35,
-      "email": "hoadv@gmail.com",
+      "name": "1",
+      "age": "25",
       "id": 4
+    },
+    {
+      "name": "4",
+      "age": "22",
+      "id": 5
+    },
+    {
+      "name": "Nguyễn Trung Đức ",
+      "age": "22",
+      "id": 6
+    },
+    {
+      "name": "asfasd",
+      "age": "14",
+      "id": 8
+    },
+    {
+      "name": "Duc",
+      "age": "15",
+      "id": 9
+    },
+    {
+      "name": "Nguyễn Trung Đức ",
+      "age": "22",
+      "id": 10
+    },
+    {
+      "name": "Trug Duc",
+      "age": "124",
+      "id": 12
+    },
+    {
+      "name": "Nguyễn Trung Đức ",
+      "age": "15",
+      "id": 13
+    },
+    {
+      "name": "1",
+      "age": "5",
+      "email": "123@gmail.com",
+      "id": 14
+    },
+    {
+      "name": "trungDuc",
+      "age": "25",
+      "email": "trungduc3501@gmail.com",
+      "id": 15
     }
   ],
   "products": [
@@ -41,7 +85,37 @@
       "name": "Xiaomi 15",
       "price": 18000000
     }
+  ],
+  "users": [
+    {
+      "email": "123@gmail.com",
+      "password": "$2a$10$s601S12QfR7P6ebsW6q.nu5f1I1VtrF79eyW6jAXfYkTiy5CN.1D.",
+      "name": "Trung Đức",
+      "id": 1
+    },
+    {
+      "email": "trungduc3501@gmail.com",
+      "password": "$2a$10$efjwrMbwGcSzPYGmmbDITeO5PrYgJfSDnP4GJeEc6zWY86dbKBDH2",
+      "name": "Trung Đức",
+      "id": 2
+    },
+    {
+      "email": "trungduc35011@gmail.com",
+      "password": "$2a$10$jgpBKd2K.FTOZopm4bXuH.JGd8LpMsYljFF05UanMPn9QXxOlgaSe",
+      "name": "Trung Đức1",
+      "id": 3
+    },
+    {
+      "email": "1234@gmail.com",
+      "password": "$2a$10$OJ/WLG6vbBNprBz57Cqkw.SLh9TRuWGwFZevAbecnmCcIl0cqVq/C",
+      "name": "Trung Đức2",
+      "id": 4
+    },
+    {
+      "email": "12345@gmail.com",
+      "password": "$2a$10$96hsWCJAKNhEkXGx8fmZR.D0sEn1OVD5c0XFKM00UrPwa9zAzNguy",
+      "name": "Trung Đức3",
+      "id": 5
+    }
   ]
-
 }
-

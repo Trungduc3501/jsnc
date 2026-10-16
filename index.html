@@ -17,12 +17,19 @@
           <a href="index.html" class="hover:text-gray-200">Danh sách</a>
           <a href="add.html" class="hover:text-gray-200">Thêm mới</a>
         </div>
+        <a href="login.html" id="btnLogin" class=" btn bg-green-600 hover:bg-green-700 text-white px-5 py-2 rounded-lg hover:text-gray-200">Đăng nhập</a>
+              <a id="btnLogout" class="bg-red-600 hover:bg-red-700 text-white px-5 py-2 rounded-lg">Đăng xuất</a>
+
         <div class="hidden md:flex items-center space-x-6"></div>
       </div>
     </nav>
     <!-- <div id="app"></div> -->
+     <p id="loading" style="display: none;">Loading ...</p>
     <div class="max-w-6xl mx-auto mt-10 px-4 text-center">
       <h1 id="title" class="text-2xl font-semibold mb-6">Danh sách</h1>
+      <div class="mb-4">
+        <a href="./add.html" class="button bg-green-500 hover:bg-green-600 text-white px-5 py-2 rounded-lg">Thêm dữ liệu</a>
+      </div>
       <div>
 
         <input type="text" placeholder="Nhập tên sinh viên cần tìm kiếm ..." id="searchName"
@@ -64,5 +71,7 @@
     <script src="lab2.js"></script>
     <script src="lab3.js"></script> -->
     <script src="lab4.js"></script>
+    <script src="logout.js"></script>
+    <!-- <script src="lab4.js"></script> -->
   </body>
 </html>
